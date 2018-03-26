@@ -1,3 +1,5 @@
+### Paraview macro to align the camera with any OSIRIS image
+
 # numpy for arrays manipulations
 import numpy as np
 # we use spiceypy, other toolkits might be used
@@ -9,8 +11,9 @@ import vtk
 # the location where Rosetta spice kernels are kept.
 # the kernels are public so you can find them here:
 # ftp://anonymous@naif.jpl.nasa.gov/pub/naif/ROSETTA
-spice_kernels_dir = "/home/luca/Code/cgat.git/data/spice_kernels"
-spice_kernels_dir = "/data/Documenti-local/notebookscg.git/cgkernels/mk/"
+# an example:
+spice_kernels_dir = "/home/luca/spice_kernels"
+
 
 # you also need a furnsh file. Have a look at the SPICE kernels documentation.
 # its a list of the spice kernels needed for the computation
@@ -18,6 +21,7 @@ furnsh_file = "kernels_CG.furnsh"
 furnsh_file = "ROS_V111.TM"
 
 # the picture to align to
+# modify the code accordingly if you just have the time string
 fname = "NAC_2016-01-27T16.27.58.970Z_ID30_1397549500_F22"
 
 # if screenshot is needed set screenshotfile to some path.

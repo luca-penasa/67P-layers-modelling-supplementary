@@ -1,0 +1,75 @@
+{
+    "ImplicitFunction": {
+        "polymorphic_id": 2147483649,
+        "polymorphic_name": "EllipsoidProportionalGrowingAxisModel",
+        "ptr_wrapper": {
+            "id": 2147483649,
+            "data": {
+                "cereal_class_version": 0,
+                "value0": {
+                    "cereal_class_version": 0,
+                    "parameters_pool_": {
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "cereal_class_version": 0,
+                                "parameters_": [
+                                    {
+                                        "ptr_wrapper": {
+                                            "id": 2147483651,
+                                            "data": {
+                                                "cereal_class_version": 0,
+                                                "name_": "rotation",
+                                                "values_": {
+                                                    "value0": 4,
+                                                    "value1": 1,
+                                                    "value2": -0.0846142889682682,
+                                                    "value3": -0.11439329186627718,
+                                                    "value4": 0.21897167507224475,
+                                                    "value5": 0.965300990569494
+                                                },
+                                                "type_": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "ptr_wrapper": {
+                                            "id": 2147483652,
+                                            "data": {
+                                                "name_": "center",
+                                                "values_": {
+                                                    "value0": 3,
+                                                    "value1": 1,
+                                                    "value2": 1.0450945859768939,
+                                                    "value3": -0.37289148628064186,
+                                                    "value4": -0.010754722838843699
+                                                },
+                                                "type_": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "ptr_wrapper": {
+                                            "id": 2147483653,
+                                            "data": {
+                                                "name_": "scales",
+                                                "values_": {
+                                                    "value0": 3,
+                                                    "value1": 1,
+                                                    "value2": 1.0,
+                                                    "value3": 0.7407595537231453,
+                                                    "value4": 0.673859565661287
+                                                },
+                                                "type_": 2
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
