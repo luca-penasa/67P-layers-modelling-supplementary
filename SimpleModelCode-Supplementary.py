@@ -1,9 +1,15 @@
 import numpy as np 
 
+#SL parameters for the reference solution
+centre = np.array([1.06, -0.346, 0.01])
+scales = np.array([ 1.,0.76, 0.704])
+angles = np.array([ 28.1, -11.2, -7.3])
+
 #BL parameters from the reference solution
-centre = np.array([-0.4725, 0.318, -0.166])
-scales = np.array([ 1.,0.806 ,0.543])
-angles = np.array([ 44.7 , 15.0,  66.2])
+centre = np.array([-0.473, 0.33, -0.17])
+scales = np.array([ 1.,0.805 ,0.544])
+angles = np.array([ 44.8 , 15.0,  66.3])
+
 
 def euler2mat(angles):    
     '''
